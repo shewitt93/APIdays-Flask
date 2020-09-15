@@ -66,11 +66,14 @@ class Dragon_name:
     def __init__(self, name, month):
         self.name = name
         self.month = month
-    
+    # def dragon(self):
     def __str__(self):
         idx= randint(0, len(dragname) - 1)
         self.name = (f"{dragname[idx]}")
         self.month = surname[self.month]
+
+        # name = list(enumerate(f"{self.name} {self.month}"))
+        # return name
        
     
         return f'{self.name} {self.month}'
